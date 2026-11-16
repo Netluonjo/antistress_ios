@@ -151,3 +151,4 @@ public struct SlimeToyView: View {
         hapticManager.vibrateLight()
     }
 }
+

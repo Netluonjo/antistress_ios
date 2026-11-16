@@ -102,3 +102,4 @@ public struct ToyDetailContainerView: View {
         .navigationBarHidden(true)
     }
 }
+

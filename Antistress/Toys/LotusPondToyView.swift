@@ -232,3 +232,4 @@ private struct TriangleNotch: Shape {
         return path
     }
 }
+

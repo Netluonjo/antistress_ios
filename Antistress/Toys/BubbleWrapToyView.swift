@@ -136,3 +136,4 @@ public struct BubbleWrapToyView: View {
         hapticManager.vibrateLight()
     }
 }
+

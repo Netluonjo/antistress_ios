@@ -118,3 +118,4 @@ public struct XylophoneToyView: View {
         hapticManager.vibrateLight()
     }
 }
+

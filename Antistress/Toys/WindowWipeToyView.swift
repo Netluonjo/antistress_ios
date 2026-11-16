@@ -132,3 +132,4 @@ private struct MountainShape: Shape {
         return path
     }
 }
+

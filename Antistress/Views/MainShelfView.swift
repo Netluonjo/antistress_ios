@@ -140,3 +140,4 @@ private struct CardPressButtonStyle: ButtonStyle {
             .animation(.easeInOut(duration: 0.12), value: configuration.isPressed)
     }
 }
+

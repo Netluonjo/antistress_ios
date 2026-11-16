@@ -149,3 +149,4 @@ public struct ChalkboardToyView: View {
         hapticManager.vibrateLight()
     }
 }
+

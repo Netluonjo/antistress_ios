@@ -148,3 +148,4 @@ public struct PopItToyView: View {
         hapticManager.vibrateLight()
     }
 }
+

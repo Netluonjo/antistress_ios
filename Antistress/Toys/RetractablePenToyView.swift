@@ -194,3 +194,4 @@ private struct Triangle: Shape {
         return path
     }
 }
+

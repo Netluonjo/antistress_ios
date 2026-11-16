@@ -167,3 +167,4 @@ public struct CoinPolishToyView: View {
         hapticManager.vibrateLight()
     }
 }
+

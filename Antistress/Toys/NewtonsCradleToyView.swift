@@ -233,3 +233,4 @@ public struct NewtonsCradleToyView: View {
         hapticManager.vibrateLight()
     }
 }
+
