@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		120000000000000000000001 /* AntistressApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110000000000000000000001 /* AntistressApp.swift */; };
+		120000000000000000000002 /* Toy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110000000000000000000002 /* Toy.swift */; };
+		120000000000000000000003 /* ToyRegistry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110000000000000000000003 /* ToyRegistry.swift */; };
+		120000000000000000000004 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110000000000000000000004 /* SoundManager.swift */; };
+		120000000000000000000005 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110000000000000000000005 /* HapticManager.swift */; };
+		120000000000000000000006 /* MainShelfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110000000000000000000006 /* MainShelfView.swift */; };
+		120000000000000000000007 /* ToyDetailContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110000000000000000000007 /* ToyDetailContainerView.swift */; };
+		120000000000000000000008 /* ToyCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110000000000000000000008 /* ToyCardView.swift */; };
+		120000000000000000000009 /* BubbleWrapToyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110000000000000000000009 /* BubbleWrapToyView.swift */; };
+		12000000000000000000000A /* PopItToyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11000000000000000000000A /* PopItToyView.swift */; };
+		12000000000000000000000B /* SwitchesToyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11000000000000000000000B /* SwitchesToyView.swift */; };
+		12000000000000000000000C /* SlimeToyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11000000000000000000000C /* SlimeToyView.swift */; };
+		12000000000000000000000D /* FidgetSpinnerToyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11000000000000000000000D /* FidgetSpinnerToyView.swift */; };
+		12000000000000000000000E /* NewtonsCradleToyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11000000000000000000000E /* NewtonsCradleToyView.swift */; };
+		12000000000000000000000F /* RetractablePenToyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11000000000000000000000F /* RetractablePenToyView.swift */; };
+		120000000000000000000010 /* XylophoneToyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110000000000000000000010 /* XylophoneToyView.swift */; };
+		120000000000000000000011 /* BambooChimesToyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110000000000000000000011 /* BambooChimesToyView.swift */; };
+		120000000000000000000012 /* LotusPondToyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110000000000000000000012 /* LotusPondToyView.swift */; };
+		120000000000000000000013 /* ChalkboardToyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110000000000000000000013 /* ChalkboardToyView.swift */; };
+		120000000000000000000014 /* WindowWipeToyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110000000000000000000014 /* WindowWipeToyView.swift */; };
+		120000000000000000000015 /* CoinPolishToyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110000000000000000000015 /* CoinPolishToyView.swift */; };
+		120000000000000000000016 /* WoodChopToyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110000000000000000000016 /* WoodChopToyView.swift */; };
+		120000000000000000000017 /* ZenGardenToyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110000000000000000000017 /* ZenGardenToyView.swift */; };
+		120000000000000000000018 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 110000000000000000000018 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10000000000000000000000C /* Antistress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Antistress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		110000000000000000000001 /* AntistressApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AntistressApp.swift; sourceTree = "<group>"; };
+		110000000000000000000002 /* Toy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toy.swift; sourceTree = "<group>"; };
+		110000000000000000000003 /* ToyRegistry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyRegistry.swift; sourceTree = "<group>"; };
+		110000000000000000000004 /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		110000000000000000000005 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		110000000000000000000006 /* MainShelfView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainShelfView.swift; sourceTree = "<group>"; };
+		110000000000000000000007 /* ToyDetailContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyDetailContainerView.swift; sourceTree = "<group>"; };
+		110000000000000000000008 /* ToyCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyCardView.swift; sourceTree = "<group>"; };
+		110000000000000000000009 /* BubbleWrapToyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleWrapToyView.swift; sourceTree = "<group>"; };
+		11000000000000000000000A /* PopItToyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopItToyView.swift; sourceTree = "<group>"; };
+		11000000000000000000000B /* SwitchesToyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchesToyView.swift; sourceTree = "<group>"; };
+		11000000000000000000000C /* SlimeToyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlimeToyView.swift; sourceTree = "<group>"; };
+		11000000000000000000000D /* FidgetSpinnerToyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FidgetSpinnerToyView.swift; sourceTree = "<group>"; };
+		11000000000000000000000E /* NewtonsCradleToyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewtonsCradleToyView.swift; sourceTree = "<group>"; };
+		11000000000000000000000F /* RetractablePenToyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetractablePenToyView.swift; sourceTree = "<group>"; };
+		110000000000000000000010 /* XylophoneToyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XylophoneToyView.swift; sourceTree = "<group>"; };
+		110000000000000000000011 /* BambooChimesToyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BambooChimesToyView.swift; sourceTree = "<group>"; };
+		110000000000000000000012 /* LotusPondToyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotusPondToyView.swift; sourceTree = "<group>"; };
+		110000000000000000000013 /* ChalkboardToyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChalkboardToyView.swift; sourceTree = "<group>"; };
+		110000000000000000000014 /* WindowWipeToyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowWipeToyView.swift; sourceTree = "<group>"; };
+		110000000000000000000015 /* CoinPolishToyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinPolishToyView.swift; sourceTree = "<group>"; };
+		110000000000000000000016 /* WoodChopToyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoodChopToyView.swift; sourceTree = "<group>"; };
+		110000000000000000000017 /* ZenGardenToyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZenGardenToyView.swift; sourceTree = "<group>"; };
+		110000000000000000000018 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		110000000000000000000019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10000000000000000000000B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		100000000000000000000010 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000012 /* Antistress */,
+				100000000000000000000011 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		100000000000000000000011 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10000000000000000000000C /* Antistress.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		100000000000000000000012 /* Antistress */ = {
+			isa = PBXGroup;
+			children = (
+				110000000000000000000001 /* AntistressApp.swift */,
+				100000000000000000000013 /* Models */,
+				100000000000000000000014 /* Services */,
+				100000000000000000000015 /* Views */,
+				100000000000000000000016 /* Toys */,
+				110000000000000000000018 /* Assets.xcassets */,
+				110000000000000000000019 /* Info.plist */,
+			);
+			path = Antistress;
+			sourceTree = "<group>";
+		};
+		100000000000000000000013 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				110000000000000000000002 /* Toy.swift */,
+				110000000000000000000003 /* ToyRegistry.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		100000000000000000000014 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				110000000000000000000004 /* SoundManager.swift */,
+				110000000000000000000005 /* HapticManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		100000000000000000000015 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				110000000000000000000006 /* MainShelfView.swift */,
+				110000000000000000000007 /* ToyDetailContainerView.swift */,
+				110000000000000000000008 /* ToyCardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		100000000000000000000016 /* Toys */ = {
+			isa = PBXGroup;
+			children = (
+				110000000000000000000009 /* BubbleWrapToyView.swift */,
+				11000000000000000000000A /* PopItToyView.swift */,
+				11000000000000000000000B /* SwitchesToyView.swift */,
+				11000000000000000000000C /* SlimeToyView.swift */,
+				11000000000000000000000D /* FidgetSpinnerToyView.swift */,
+				11000000000000000000000E /* NewtonsCradleToyView.swift */,
+				11000000000000000000000F /* RetractablePenToyView.swift */,
+				110000000000000000000010 /* XylophoneToyView.swift */,
+				110000000000000000000011 /* BambooChimesToyView.swift */,
+				110000000000000000000012 /* LotusPondToyView.swift */,
+				110000000000000000000013 /* ChalkboardToyView.swift */,
+				110000000000000000000014 /* WindowWipeToyView.swift */,
+				110000000000000000000015 /* CoinPolishToyView.swift */,
+				110000000000000000000016 /* WoodChopToyView.swift */,
+				110000000000000000000017 /* ZenGardenToyView.swift */,
+			);
+			path = Toys;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		100000000000000000000002 /* Antistress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 100000000000000000000003 /* Build configuration list for PBXNativeTarget "Antistress" */;
+			buildPhases = (
+				100000000000000000000009 /* Sources */,
+				10000000000000000000000B /* Frameworks */,
+				10000000000000000000000A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Antistress;
+			productName = Antistress;
+			productReference = 10000000000000000000000C /* Antistress.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		100000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					100000000000000000000002 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = 100000000000000000000004 /* Build configuration list for PBXProject "Antistress" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 100000000000000000000010 /* Main */;
+			productRefGroup = 100000000000000000000011 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				100000000000000000000002 /* Antistress */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10000000000000000000000A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				120000000000000000000018 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		100000000000000000000009 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				120000000000000000000001 /* AntistressApp.swift in Sources */,
+				120000000000000000000002 /* Toy.swift in Sources */,
+				120000000000000000000003 /* ToyRegistry.swift in Sources */,
+				120000000000000000000004 /* SoundManager.swift in Sources */,
+				120000000000000000000005 /* HapticManager.swift in Sources */,
+				120000000000000000000006 /* MainShelfView.swift in Sources */,
+				120000000000000000000007 /* ToyDetailContainerView.swift in Sources */,
+				120000000000000000000008 /* ToyCardView.swift in Sources */,
+				120000000000000000000009 /* BubbleWrapToyView.swift in Sources */,
+				12000000000000000000000A /* PopItToyView.swift in Sources */,
+				12000000000000000000000B /* SwitchesToyView.swift in Sources */,
+				12000000000000000000000C /* SlimeToyView.swift in Sources */,
+				12000000000000000000000D /* FidgetSpinnerToyView.swift in Sources */,
+				12000000000000000000000E /* NewtonsCradleToyView.swift in Sources */,
+				12000000000000000000000F /* RetractablePenToyView.swift in Sources */,
+				120000000000000000000010 /* XylophoneToyView.swift in Sources */,
+				120000000000000000000011 /* BambooChimesToyView.swift in Sources */,
+				120000000000000000000012 /* LotusPondToyView.swift in Sources */,
+				120000000000000000000013 /* ChalkboardToyView.swift in Sources */,
+				120000000000000000000014 /* WindowWipeToyView.swift in Sources */,
+				120000000000000000000015 /* CoinPolishToyView.swift in Sources */,
+				120000000000000000000016 /* WoodChopToyView.swift in Sources */,
+				120000000000000000000017 /* ZenGardenToyView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		100000000000000000000005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Antistress/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Antistress;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.antistress.relaxation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		100000000000000000000006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Antistress/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Antistress;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.antistress.relaxation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		100000000000000000000007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDEFINED_VARIABLES = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		100000000000000000000008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDEFINED_VARIABLES = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		100000000000000000000003 /* Build configuration list for PBXNativeTarget "Antistress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				100000000000000000000005 /* Debug */,
+				100000000000000000000006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		100000000000000000000004 /* Build configuration list for PBXProject "Antistress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				100000000000000000000007 /* Debug */,
+				100000000000000000000008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 100000000000000000000001 /* Project object */;
+}
