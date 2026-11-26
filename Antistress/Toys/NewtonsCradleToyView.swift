@@ -84,8 +84,8 @@ public struct NewtonsCradleToyView: View {
                             with: .radialGradient(
                                 gradient,
                                 center: CGPoint(x: ball.currentX - ball.radius * 0.35, y: ball.currentY - ball.radius * 0.35),
-                                startRadiusFraction: 0.05,
-                                endRadiusFraction: 1.0
+                                startRadius: ball.radius * 0.05,
+                                endRadius: ball.radius
                             )
                         )
                     }

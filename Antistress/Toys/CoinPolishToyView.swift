@@ -56,8 +56,8 @@ public struct CoinPolishToyView: View {
                                     RadialGradient(
                                         colors: [Color(hex: "#FEF08A"), Color(hex: "#EAB308"), Color(hex: "#CA8A04"), Color(hex: "#854D0E")],
                                         center: .center,
-                                        startRadiusFraction: 0.1,
-                                        endRadiusFraction: 1.0
+                                        startRadius: coinRadius * 0.1,
+                                        endRadius: coinRadius
                                     )
                                 )
                                 .frame(width: coinRadius * 2, height: coinRadius * 2)
