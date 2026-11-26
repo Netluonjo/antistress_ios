@@ -134,8 +134,8 @@ public struct SwitchesToyView: View {
                         RadialGradient(
                             colors: [Color(hex: "#EF4444"), Color(hex: "#B91C1C")],
                             center: .center,
-                            startRadiusFraction: 0.1,
-                            endRadiusFraction: 1.0
+                            startRadius: 5,
+                            endRadius: 55
                         )
                     )
                     .frame(width: arcadePressed ? 104 : 110, height: arcadePressed ? 104 : 110)

@@ -62,8 +62,8 @@ public struct SlimeToyView: View {
                         with: .radialGradient(
                             gradient,
                             center: c,
-                            startRadiusFraction: 0.1,
-                            endRadiusFraction: 1.0
+                            startRadius: 12,
+                            endRadius: 120
                         )
                     )
 

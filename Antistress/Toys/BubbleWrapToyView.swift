@@ -59,8 +59,8 @@ public struct BubbleWrapToyView: View {
                                 with: .radialGradient(
                                     gradient,
                                     center: CGPoint(x: bubble.x - bubble.radius * 0.3, y: bubble.y - bubble.radius * 0.3),
-                                    startRadiusFraction: 0.05,
-                                    endRadiusFraction: 1.0
+                                    startRadius: bubble.radius * 0.05,
+                                    endRadius: bubble.radius
                                 )
                             )
 
